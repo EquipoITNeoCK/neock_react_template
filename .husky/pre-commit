@@ -1,1 +1,2 @@
-npm
+pnpm run tsc
+pnpm lint-staged
