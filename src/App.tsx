@@ -1,5 +1,12 @@
+import AppRouter from './AppRouter';
+
 function App() {
-  return <>hola</>;
+  return (
+    <>
+      <h1>neoCK</h1>
+      <AppRouter />
+    </>
+  );
 }
 
 export default App;
