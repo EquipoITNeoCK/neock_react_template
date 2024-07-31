@@ -1,4 +1,4 @@
 {
-  "**/*.{ts,tsx}": ["eslint"],
-  "**/*": "npm run format"
+  "**/*.{ts,tsx}": "pnpm run lint",
+  "**/*": "pnpm run format"
 }
