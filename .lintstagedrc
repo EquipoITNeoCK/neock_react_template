@@ -1,3 +1,4 @@
 {
-  "**/*.{ts,tsx}": ["eslint"]
+  "**/*.{ts,tsx}": ["eslint"],
+  "**/*": "npm run format"
 }
