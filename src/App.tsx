@@ -1,12 +1,16 @@
-import AppRouter from './AppRouter';
+import { Box, Typography } from "@mui/material";
+import AppRouter from "./app-router";
+import "./app.css";
 
 function App() {
-  return (
-    <>
-      <h1>neoCK</h1>
-      <AppRouter />
-    </>
-  );
+	return (
+		<>
+			<AppRouter />
+			<Box>
+				<Typography>Para usar en neoCK</Typography>
+			</Box>
+		</>
+	);
 }
 
 export default App;
